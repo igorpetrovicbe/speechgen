@@ -1,7 +1,7 @@
 # speechgen
 Speechgen je autoregresivni transformer model treniran da generiše govor srpskog jezika. VQ-VAE komponenta vrši tokenizaciju zvuka, dok je transformer treniran da predviđa sledeći token.
-Projekt se takođe sastoji i od transkripcionog modela, čija arhitektura se sastoji od jednog jednodimenzionog konvolucionog sloja, čija je uloga transkripcija teksta.
-Model je treniran na maloj količini podataka, koristeći izlaznu reprezentaciju generativnog modela.
+Projekat se takođe sadrži i transkripcioni model, čija arhitektura se sastoji iz jednog jednodimenzionog konvolucionog sloja, čija je uloga transkripcija teksta.
+Ovaj transkripcioni model je treniran na maloj količini podataka, koristeći izlaznu reprezentaciju generativnog modela.
 # Instrukcije za korišćenje transkripcionog modela
 
 ## Dependencies
