@@ -4,17 +4,10 @@ import torch
 import torchaudio
 from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 import torch.nn as nn
-from rnn import MultiLayerRNN
-from lstm import MultiLayerLSTM
-from residual_lstm import ResLSTM
 from transformer_full_indices import MultiLayerTransformer
-import matplotlib.pyplot as plt
-from torch.nn.utils.rnn import pad_sequence
-import torch.nn.functional as F
 from dataset_audio_full_indices_general import AudioDataset
-from scipy.io.wavfile import write
 import os
 import numpy as np
 import itertools
