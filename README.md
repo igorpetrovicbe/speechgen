@@ -15,7 +15,7 @@ Model je treniran na maloj količini podataka, koristeći izlaznu reprezentaciju
 
 - [Link do težina](https://drive.google.com/file/d/1b-8JRvKhzVQ4qoDHm0d0VJi-9-LiO-Y9/view?usp=drive_link)
 
-Težine staviti u folder transcriber/weights
+Težine staviti u folder `transcriber/weights`
 
 ## Trening transkripcionog modela
 
