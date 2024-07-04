@@ -41,5 +41,5 @@ Sledeći zvukovi su dužine 12 sekundi, gde je prvih 8 sekundi ulazni kontekst, 
 Uzeti u obzir da osim konteksta nema nijednog drugog ulaza u transformer - nije mu rečeno šta da kaže, već on slobodno generiše
 nastavak govora. Model takođe nije treniran na tekstu, tako da je impresivno što je uspeo da nauči neke česte reči samo slušanjem.
 
-<audio controls><source src="generated_examples/1.wav" type="audio/mpeg"></audio>
-<audio controls><source src="generated_examples/2.wav" type="audio/mpeg"></audio>
+<video src='generated_examples/1.mp4' width=180 />
+<video src='generated_examples/2.mp4' width=180 />
